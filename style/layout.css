@@ -38,13 +38,20 @@ font-style: normal;
 }
 
 .p7{
+	position: absolute;
+	margin-top: 9.8vw;
+  animation-duration: 5s;
+  margin-left: 54vw;
+  color: #06fcfc;
+	transform: rotate(45deg);
+	animation-fill-mode:forwards;
 
 }
 .p6{
 	position: absolute;
 	margin-top: 21.7vw;
   animation-duration: 5s;
-  margin-left: 13vw;
+  margin-left: 24vw;
   color: #ff00e7;
 	transform: rotate(-45deg);
 	animation-fill-mode:forwards;
@@ -53,7 +60,7 @@ font-style: normal;
 .p5{
 	margin-top: 37.6vw;
   animation-duration: 5s;
-  margin-left: 5vw;
+  margin-left: 0vw;
 
 	color: #02071c;
 	text-shadow: 0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7;
@@ -63,9 +70,9 @@ font-style: normal;
 	position: absolute;
 }
 .p4{
-	margin-top: 28vw;
+	margin-top: 28.7vw;
   animation-duration: 5s;
-  margin-left: 52vw;
+  margin-left: 64vw;
 	color: #02071c;
 	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
 	transform: rotate(45deg);
@@ -78,7 +85,7 @@ font-style: normal;
 	margin-top: 30vw;
   animation-duration: 5s;
   animation-name: p3;
-  margin-left: 10vw;
+  margin-left: 2.7vw;
 	transform: rotate(45deg);
   color: #06fcfc;
 	animation-fill-mode:forwards;
@@ -86,17 +93,18 @@ font-style: normal;
 .p2{
 	display: block;
 	position: absolute;
-	margin-top: 40vw;
+	margin-top: 43.5vw;
   animation-duration: 5s;
   animation-name: kg;
-  margin-left: 40vw;
+  margin-left: 46vw;
   color: #06fcfc;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 }
 .p1{
 	position: absolute;
-  margin-top: 11vw;
+  margin-top: 10.7vw;
+	margin-left: 12vw;
 	animation-duration: 5s;
 	color: #02071c;
 	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
