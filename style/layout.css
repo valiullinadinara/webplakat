@@ -33,8 +33,27 @@ font-style: normal;
   font-family: 'Uni Sans Heavy';
   transition: all 0.3s ease;
 }
-.count {
 
+.count{
+	position: absolute;
+	color: #06fcfc;
+  font-size: 6vw;
+  font-family: 'Uni Sans Heavy' ;
+	transform: rotate(45deg);
+	margin-left: 34vw;
+	margin-top: 10vw;
+}
+.ticket{
+	position: absolute;
+	color: #06fcfc;
+  font-size: 3vw;
+  font-family: 'Uni Sans Heavy';
+	transform: rotate(45deg);
+	animation-fill-mode:forwards;
+	animation-name: ticket;
+	animation-duration: 5s;
+	margin-left: 29vw;
+	margin-top: 14vw;
 }
 .img3{
 	position: absolute;
@@ -212,7 +231,9 @@ font-style: normal;
 	animation-duration: 5s;
 	color: #02071c;
 	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
-	transform: rotate(45deg);}
+	transform: rotate(45deg);
+  animation-fill-mode:forwards;
+}
 	/* animation-name: anim; */
 	/* margin-left: 0px;
 	color: #02071c;
