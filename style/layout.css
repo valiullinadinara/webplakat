@@ -89,6 +89,9 @@ font-style: normal;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 }
+.b12 {
+  animation-name: anim12;
+}
 .p11{
 	position: absolute;
 	font-size: 1.4vw;
@@ -107,6 +110,9 @@ font-style: normal;
 	animation-fill-mode:forwards;
 
 }
+.b11 {
+  animation-name: anim11;
+}
 .p10{
 	position: absolute;
 	font-size: 1.3vw;
@@ -124,6 +130,9 @@ font-style: normal;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 
+}
+.b10 {
+  animation-name: anim10;
 }
 .p9{
 	position: absolute;
@@ -144,6 +153,9 @@ font-style: normal;
 	animation-name: pp9;
 
 }
+.b9 {
+  animation-name: anim9;
+}
 .p8{
 	position: absolute;
 	font-size: 1vw;
@@ -161,7 +173,21 @@ font-style: normal;
 	animation-fill-mode:forwards;
 
 }
-
+.b8 {
+  animation-name: anim8;
+}
+@keyframes anim7 {
+from{
+  margin-top: 9.9vw;
+	margin-left: 54vw;
+	transform: rotate(45deg);
+}
+to{
+  margin-top: 40%;
+	margin-left: 11%;
+  transform: rotate(0deg);
+}
+}
 .p7 {
 	position: absolute;
 	margin-top: 9.8vw;
@@ -171,6 +197,21 @@ font-style: normal;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 
+}
+.b7 {
+  animation-name: anim7;
+}
+@keyframes anim6 {
+from{
+  margin-top: 21.7vw;
+	margin-left: 24vw;
+	transform: rotate(-45deg);
+}
+to{
+  margin-top: 25%;
+	margin-left: 11%;
+  transform: rotate(0deg);
+}
 }
 .p6 {
 	position: absolute;
@@ -182,6 +223,21 @@ font-style: normal;
 	animation-fill-mode:forwards;
 
 }
+.b6 {
+  animation-name: anim6;
+}
+@keyframes anim5 {
+from{
+  margin-top: 37.6vw;
+	margin-left: 0vw;
+	transform: rotate(45deg);
+}
+to{
+  margin-top: 5%;
+	margin-left: 5%;
+  transform: rotate(0deg);
+}
+}
 .p5 {
 	margin-top: 37.6vw;
   animation-duration: 5s;
@@ -192,6 +248,20 @@ font-style: normal;
 	animation-fill-mode:forwards;
 	position: absolute;
 }
+.b5 {
+  animation-name: anim5;
+}
+@keyframes anim4 {
+from{
+  margin-top: 28vw;
+	margin-left: 52vw;
+}
+to{
+  margin-top: 30%;
+	margin-left: 40%;
+  transform: rotate(0deg);
+}
+}
 .p4 {
 	margin-top: 28.7vw;
   animation-duration: 5s;
@@ -201,6 +271,22 @@ font-style: normal;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 	position: absolute;
+}
+.b4 {
+  animation-name: anim4;
+}
+@keyframes anim3 {
+from{
+  margin-top: 30vw;
+	margin-left: 2.7vw;
+}
+to{
+  margin-left: -12%;
+	transform: rotate(270deg);
+	animation-fill-mode:forwards;
+	margin-top: 25%;
+
+}
 }
 .p3 {
 	position: absolute;
@@ -213,6 +299,20 @@ font-style: normal;
   color: #06fcfc;
 	animation-fill-mode:forwards;
 }
+.b3 {
+  animation-name: anim3;
+}
+@keyframes anim2 {
+from{
+  margin-top: 43.5vw;
+  margin-left: 33vw;
+}
+to{
+  margin-top: 11%;
+	margin-left: 80%;
+	transform: rotate(270deg);
+}
+}
 .p2 {
 	display: block;
 	position: absolute;
@@ -224,6 +324,20 @@ font-style: normal;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 }
+.b2 {
+  animation-name: anim2;
+}
+@keyframes anim {
+from{
+	margin-top: 10.7vw;
+	margin-left: 12vw;
+}
+to{
+  margin-top: 15%;
+	margin-left: 30%;
+	transform: rotate(0deg);
+}
+}
 .p1 {
 	position: absolute;
   margin-top: 10.7vw;
@@ -234,14 +348,9 @@ font-style: normal;
 	transform: rotate(45deg);
   animation-fill-mode:forwards;
 }
-	/* animation-name: anim; */
-	/* margin-left: 0px;
-	color: #02071c;
-	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-
-
+.b {
+  animation-name: anim;
+}
 /* @keyframes count {
 from{
 	opacity: 100%;
