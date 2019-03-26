@@ -9,16 +9,14 @@ font-style: normal;
 }
 
 @font-face {
-			font-family: "BebasRegular";
-			src: url("../fonts/BebasRegular.eot");
-			src: url("../fonts/BebasRegular.eot?#iefix")format("embedded-opentype"),
-			url("../fonts/BebasRegular.woff") format("woff"),
-			url("../fonts/BebasRegular.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
-
-
+	font-family: "BebasRegular";
+	src: url("../fonts/BebasRegular.eot");
+	src: url("../fonts/BebasRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BebasRegular.woff") format("woff"),
+	url("../fonts/BebasRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
 .welcome {
 	width: 100%;
@@ -28,7 +26,7 @@ font-style: normal;
 	display: block;
 }
 
-.p1, .p2, .p3, .p4, .p5, .p6, .p7{
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
 	font-size: 7.5vw;
   font-family: 'Uni Sans Heavy';
   transition: all 0.3s ease;
@@ -42,10 +40,12 @@ to{
 	opacity: 0;
 }
 }
-.sum{
+
+.sum {
 	opacity: 50%;
 }
-.count{
+
+.count {
 	position: absolute;
 	color: #06fcfc;
   font-size: 6vw;
@@ -54,6 +54,7 @@ to{
 	margin-left: 34vw;
 	margin-top: 10vw;
 }
+
 .b17 {
   animation-name: count;
 }
@@ -66,7 +67,8 @@ to{
 	opacity: 0;
 }
 }
-.ticket{
+
+.ticket {
 	position: absolute;
 	color: #06fcfc;
   font-size: 3vw;
@@ -77,30 +79,34 @@ to{
 	margin-left: 29vw;
 	margin-top: 14vw;
 }
+
 .b16 {
   animation-name: ticket;
 }
-.img3{
+
+.img3 {
 	position: absolute;
 	width: 22vw;
 	transform: rotate(45deg);
 	margin-top: 27vw;
 	margin-left: 22vw;
 }
-.img1{
+
+.img1 {
 	position: absolute;
 	width: 18vw;
 	transform: rotate(45deg);
 	margin-top: 37.5vw;
 	margin-left: 53.5vw;
 }
+
 @keyframes anim12 {
-from{
+from {
 	margin-top: 7.1vw;
 	margin-left: 53.5vw;
 	transform: rotate(45deg);
 }
-to{
+to {
 	margin-top: 44.5%;
   margin-left: 58.5%;
 	transform: rotate(0deg);
@@ -110,7 +116,8 @@ to{
 	line-height: 1.4vw;
 }
 }
-.p12{
+
+.p12 {
   position: absolute;
 	font-size: 1.2vw;
 	font-family: 'BebasRegular';
@@ -130,16 +137,18 @@ to{
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 }
+
 .b12 {
   animation-name: anim12;
 }
+
 @keyframes anim11 {
-from{
+from {
 	margin-top: 41.5vw;
 	margin-left: -1vw;
 	transform: rotate(45deg);
 }
-to{
+to {
 	margin-top: 37%;
   margin-left: 21%;
 	transform: rotate(0deg);
@@ -147,7 +156,8 @@ to{
 	width: 18%;
 }
 }
-.p11{
+
+.p11 {
 	position: absolute;
 	font-size: 1.4vw;
 	font-family: 'BebasRegular';
@@ -163,19 +173,19 @@ to{
 	animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
-
 }
 
 .b11 {
   animation-name: anim11;
 }
+
 @keyframes anim10 {
-from{
+from {
 	margin-top: 49.5vw;
 	margin-left: 42vw;
 	transform: rotate(45deg);
 }
-to{
+to {
 	margin-top: 15%;
   margin-left: 21%;
 	transform: rotate(0deg);
@@ -184,7 +194,8 @@ to{
 	width: 18%;
 }
 }
-.p10{
+
+.p10 {
 	position: absolute;
 	font-size: 1.3vw;
 	font-family: 'BebasRegular';
@@ -200,18 +211,19 @@ to{
 	animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
-
 }
+
 .b10 {
   animation-name: anim10;
 }
+
 @keyframes anim9 {
-from{
+from {
 	margin-top: 32vw;
   margin-left: 59vw;
 	transform: rotate(45deg);
 }
-to{
+to {
 	margin-top: 7.5%;
   margin-left: 54%;
 	transform: rotate(0deg);
@@ -220,7 +232,8 @@ to{
 	line-height: 1.7vw;
 }
 }
-.p9{
+
+.p9 {
 	position: absolute;
 	font-size: 1.4vw;
 	font-family: 'BebasRegular';
@@ -237,30 +250,29 @@ to{
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 	animation-name: pp9;
-
 }
 
 .b9 {
   animation-name: anim9;
 }
+
 @keyframes anim8 {
-from{
+from {
 	margin-top: 7.5vw;
   margin-left: 77vw;
 	transform: rotate(45deg);
 }
-to{
+to {
 	margin-top: 29%;
   margin-left: 86%;
 	transform: rotate(270deg);
 	width: 13vw;
 	height: 28vw;
 	font-size: 1.5vw;
-	/* line-height: 2%; */
+}
+}
 
-}
-}
-.p8{
+.p8 {
 	position: absolute;
 	font-size: 1vw;
 	font-family: 'BebasRegular';
@@ -275,23 +287,25 @@ to{
   animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
-
 }
+
 .b8 {
   animation-name: anim8;
 }
+
 @keyframes anim7 {
-from{
+from {
   margin-top: 9.9vw;
 	margin-left: 54vw;
 	transform: rotate(45deg);
 }
-to{
+to {
   margin-top: 44%;
 	margin-left: 21%;
   transform: rotate(0deg);
 }
 }
+
 .p7 {
 	position: absolute;
 	margin-top: 9.8vw;
@@ -300,23 +314,25 @@ to{
   color: #06fcfc;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
-
 }
+
 .b7 {
   animation-name: anim7;
 }
+
 @keyframes anim6 {
-from{
+from {
   margin-top: 21.7vw;
 	margin-left: 24vw;
 	transform: rotate(-45deg);
 }
-to{
+to {
   margin-top: 29%;
 	margin-left: 21%;
   transform: rotate(0deg);
 }
 }
+
 .p6 {
 	position: absolute;
 	margin-top: 21.7vw;
@@ -325,23 +341,25 @@ to{
   color: #ff00e7;
 	transform: rotate(-45deg);
 	animation-fill-mode:forwards;
-
 }
+
 .b6 {
   animation-name: anim6;
 }
+
 @keyframes anim5 {
-from{
+from {
   margin-top: 37.6vw;
 	margin-left: 0vw;
 	transform: rotate(45deg);
 }
-to{
+to {
   margin-top: 7.5%;
 	margin-left: 14%;
   transform: rotate(0deg);
 }
 }
+
 .p5 {
 	margin-top: 37.6vw;
   animation-duration: 5s;
@@ -352,20 +370,23 @@ to{
 	animation-fill-mode:forwards;
 	position: absolute;
 }
+
 .b5 {
   animation-name: anim5;
 }
+
 @keyframes anim4 {
-from{
+from {
   margin-top: 28vw;
 	margin-left: 52vw;
 }
-to{
+to {
   margin-top: 36.5%;
 	margin-left: 41%;
   transform: rotate(0deg);
 }
 }
+
 .p4 {
 	margin-top: 28.7vw;
   animation-duration: 5s;
@@ -376,22 +397,23 @@ to{
 	animation-fill-mode:forwards;
 	position: absolute;
 }
+
 .b4 {
   animation-name: anim4;
 }
 @keyframes anim3 {
-from{
+from {
   margin-top: 30vw;
 	margin-left: 2.7vw;
 }
-to{
+to {
   margin-left: 0%;
 	transform: rotate(270deg);
 	animation-fill-mode:forwards;
 	margin-top: 28.5%;
+}
+}
 
-}
-}
 .p3 {
 	position: absolute;
 	display: block;
@@ -403,20 +425,23 @@ to{
   color: #06fcfc;
 	animation-fill-mode:forwards;
 }
+
 .b3 {
   animation-name: anim3;
 }
+
 @keyframes anim2 {
-from{
+from {
   margin-top: 43.5vw;
   margin-left: 33vw;
 }
-to{
+to {
   margin-top: 14%;
 	margin-left: 80%;
 	transform: rotate(270deg);
 }
 }
+
 .p2 {
 	display: block;
 	position: absolute;
@@ -428,20 +453,23 @@ to{
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 }
+
 .b2 {
   animation-name: anim2;
 }
+
 @keyframes anim {
-from{
+from {
 	margin-top: 10.7vw;
 	margin-left: 12vw;
 }
-to{
+to {
   margin-top: 21.5%;
 	margin-left: 41%;
 	transform: rotate(0deg);
 }
 }
+
 .p1 {
 	position: absolute;
   margin-top: 10.7vw;
@@ -455,475 +483,3 @@ to{
 .b {
   animation-name: anim;
 }
-/* @keyframes count {
-from{
-	opacity: 100%;
-}
-to{
-	opacity: 0;
-}
-}
-
-.sum {
-  color: #06fcfc;
-  font-size: 7vw;
-  font-family: 'Uni Sans Heavy' ;
-}
-
-.ticket {
-  color: #06fcfc;
-  font-size: 4vw;
-  font-family: 'Uni Sans Heavy';
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	animation-name: ticket;
-	animation-duration: 5s;
-}
-
-@keyframes ticket {
-from{
-	opacity: 100%;
-}
-to{
-	opacity: 0;
-}
-}
-
-.text {
-  position: absolute;
-	/* display: block; */
-  /* margin-left: 25vw;
-  margin-top: 13.5vw;
-	weight: 600px;
-} */
-
-/* img {
-  position: absolute;
-  width: 20vw;
-  transform: rotate(45deg);
-}
-
-.img1 {
-  margin-top: 38vw;
-  margin-left: 56vw;
-}
-
-.img3 {
-  margin-top: 29vw;
-  margin-left: 27vw;
-}
-
-@keyframes content {
-from{
-	margin-top: 40px;
-	margin-left: 220px;
-}
-to{
-  margin-top: 40px;
-	margin-left: 100px;
-	background: linear-gradient(to right, #014b68, #010020);
-
-}
-} */ */
-
-/* .content {
-  /* display: block; */
-  /* position: relative;
-  margin-top: 40px;
-	margin-left: 220px;
-	animation-duration: 5s;
-	animation-fill-mode:forwards; */
-
-/* }
-
-.b13 {
-  animation-name: content;
-} */
-
-.p1, .p2, .p3, .p4, .p5, .p6, .p7{
-  font-size: 7.5vw;
-  font-family: 'Uni Sans Heavy';
-  transition: all 0.3s ease;
-
-}
-
-/* @keyframes anim {
-from{
-  margin-top: 11vw;
-}
-to{
-  margin-top: 286px;
-	margin-left: 440px;
-	transform: rotate(0deg);
-}
-} */
-
-/* .p1 {
-	margin-top: 11vw;
-	animation-duration: 5s;
-	/* animation-name: anim; */
-	/* margin-left: 0px;
-	color: #02071c;
-	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-}
-
-.b {
-  animation-name: anim;
-} */ */
-
-/* @keyframes anim2 {
-from{
-  margin-top: 43.5vw;
-  margin-left: 33vw;
-}
-to{
-  margin-top: 180px;
-	margin-left: 1020px;
-	transform: rotate(270deg);
-}
-}
-
-.p2{
-  margin-top: 43.5vw;
-  animation-duration: 5s;
-  animation-name: kg;
-  margin-left: 33vw;
-  color: #06fcfc;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-} */
-
-/* .b2 {
-  animation-name: anim2;
-}
-
-@keyframes anim3 {
-from{
-  margin-top: 30.3vw;
-	margin-left: -9.3vw;
-}
-to{
-  margin-left: -130px;
-	transform: rotate(270deg);
-	animation-fill-mode:forwards;
-	margin-top: 375px;
-
-}
-}
-
-.p3 {
-  margin-top: 30.3vw;
-  animation-duration: 5s;
-  animation-name: p3;
-  margin-left: -9.3vw;
-	transform: rotate(45deg);
-  color: #06fcfc;
-	animation-fill-mode:forwards;
-}
-
-.b3 {
-  animation-name: anim3;
-}
-
-@keyframes anim4 {
-from{
-  margin-top: 28vw;
-	margin-left: 52vw;
-}
-to{
-  margin-top: 495px;
-	margin-left: 520px;
-  transform: rotate(0deg);
-}
-}
-
-.p4 {
-  margin-top: 28vw;
-  animation-duration: 5s;
-  margin-left: 52vw;
-	color: #02071c;
-	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-}
-
-.b4 {
-  animation-name: anim4;
-}
-
-@keyframes anim5 {
-from{
-  margin-top: 37.6vw;
-	margin-left: -11.8vw;
-	transform: rotate(45deg);
-}
-to{
-  margin-top: 70px;
-	margin-left: 70px;
-  transform: rotate(0deg);
-}
-}
-
-.p5 {
-  margin-top: 37.6vw;
-  animation-duration: 5s;
-  margin-left: -11.8vw;
-
-	color: #02071c;
-	text-shadow: 0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7;
-
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-}
-
-.b5 {
-  animation-name: anim5;
-}
-
-@keyframes anim6 {
-from{
-  margin-top: 21.7vw;
-	margin-left: 170px;
-	transform: rotate(-45deg);
-}
-to{
-  margin-top: 390px;
-	margin-left: 180px;
-  transform: rotate(0deg);
-}
-}
-
-.p6 {
-  margin-top: 21.7vw;
-  animation-duration: 5s;
-  margin-left: 170px;
-  color: #ff00e7;
-	transform: rotate(-45deg);
-	animation-fill-mode:forwards;
-}
-
-.b6 {
-  animation-name: anim6;
-}
-
-@keyframes anim7 {
-from{
-  margin-top: 9.9vw;
-	margin-left: 41.8vw;
-	transform: rotate(45deg);
-}
-to{
-  margin-top: 595px;
-	margin-left: 175px;
-  transform: rotate(0deg);
-}
-}
-
-.p7 {
-  margin-top: 9.9vw;
-  animation-duration: 5s;
-  margin-left: 41.8vw;
-  color: #06fcfc;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-}
-
-.b7 {
-  animation-name: anim7;
-}
-
-@keyframes anim8 {
-from{
-	margin-top: 6.5vw;
-  margin-left: 65.5vw;
-	transform: rotate(45deg);
-}
-to{
-	margin-top: 505px;
-  margin-left: 1050px;
-	transform: rotate(270deg);
-	width: 180px;
-	height: 160px;
-	font-size: 16px;
-	line-height: 18px;
-
-}
-} */
-
-/* .p8 {
-	font-size: 1vw;
-	font-family: 'BebasRegular';
-	text-transform: uppercase;
-	color: #06fcfc;
-	animation-fill-mode:forwards;
-	position: absolute;
-  width: 120px;
-  height: 200px;
-  margin-top: 6.5vw;
-  margin-left: 65.5vw;
-  animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	/* display: block; */
-}
-
-/* .b8 {
-  animation-name: anim8;
-}
-
-@keyframes anim9 {
-from{
-	margin-top: 30vw;
-  margin-left: 47.8vw;
-	transform: rotate(45deg);
-}
-to{
-	margin-top: 70px;
-  margin-left: 630px;
-	transform: rotate(0deg);
-	font-size: 24px;
-	width: 460px;
-	line-height: 25px;
-}
-} */
-
-/* .p9 {
-	font-size: 1.4vw;
-	font-family: 'BebasRegular';
-	text-transform: uppercase;
-	color: #06fcfc;
-	font-weight:lighter;
-	animation-fill-mode:forwards;
-	position: absolute;
-  width: 400px;
-  height: 100px;
-  margin-top: 30.5vw;
-  margin-left: 48.5vw;
-  animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	animation-name: pp9;
-	/* display: block; */
-} */
-
-/* .b9 {
-  animation-name: anim9;
-}
-
-@keyframes anim10 {
-from{
-	margin-top: 47.8vw;
-  margin-left: 28.7vw;
-	transform: rotate(45deg);
-}
-to{
-	margin-top: 180px;
-  margin-left: 180px;
-	transform: rotate(0deg);
-	font-size: 20.7px;
-	line-height: 21.8px;
-}
-} */
-
-/* .p10 {
-	font-size: 15px;
-	font-family: 'BebasRegular';
-	text-transform: uppercase;
-	color: #06fcfc;
-	font-weight:lighter;
-	animation-fill-mode:forwards;
-	position: absolute;
-	width: 235px;
-	height: 100px;
-	margin-top: 47.8vw;
-	margin-left: 28.7vw;
-	animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	/* display: block; */
-} */ */
-
-/* .b10 {
-  animation-name: anim10;
-}
-
-
-@keyframes anim11 {
-from{
-	margin-top: 590px;
-  margin-left: -160px;
-	transform: rotate(45deg);
-}
-to{
-	margin-top: 500px;
-  margin-left: 180px;
-	transform: rotate(0deg);
-	font-size: 16px;
-	width: 328px;
-}
-}
-
-.p11 {
-	font-size: 20px;
-	font-family: 'BebasRegular';
-	text-transform: uppercase;
-	color: #06fcfc;
-	font-weight:lighter;
-	animation-fill-mode:forwards;
-	position: absolute;
-	width: 350px;
-	height: 100px;
-	margin-top: 590px;
-	margin-left: -160px;
-	animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	/* display: block; */
-}
-
-/* .b11 {
-  animation-name: anim11;
-}
-
-@keyframes anim12 {
-from{
-	margin-top: 5.7vw;
-  margin-left: 39.5vw;
-	transform: rotate(45deg);
-}
-to{
-	margin-top: 600px;
-  margin-left: 710px;
-	transform: rotate(0deg);
-	font-size: 20px;
-	width: 300px;
-	height: 70px;
-}
-} */
-
-/* .p12{
-	font-size: 1.2vw;
-	font-family: 'BebasRegular';
-	text-transform: uppercase;
-	color: #ff00e7;
-	font-weight:lighter;
-	animation-name: littletext;
-	animation-fill-mode:forwards;
-	position: absolute;
-	width: 230px;
-	height: 100px;
-	margin-top: 5.5vw;
-	margin-left: 38.5vw;
-	animation-duration: 5s;
-	text-align: right;
-	line-height: 19px;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	/* display: block; */
-} */
-
-/* .b12 {
-  animation-name: anim12;
-} */ */
