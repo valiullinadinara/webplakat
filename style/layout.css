@@ -44,8 +44,9 @@ to{
 }
 }
 
-.sum {
-	opacity: 50%;
+span {
+	position: absolute;
+	opacity: 0%;
 }
 
 .count {
@@ -54,8 +55,9 @@ to{
   font-size: 6vw;
   font-family: 'Uni Sans Heavy' ;
 	transform: rotate(45deg);
-	margin-left: 34vw;
-	margin-top: 10vw;
+	margin-left: 40vw;
+	margin-top: 2vw;
+	opacity: %;
 }
 
 .b17 {
