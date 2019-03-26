@@ -59,9 +59,6 @@ $('.ticket').on("mouseenter",function() {
   $('.ticket').addClass('b16');
 });
 
-$('.content').on("mouseenter",function() {
-  $('.content').addClass('b18');
-});
 
 $( "#img1" ).on("mouseenter", function() {
   $( "#img1" ).animate({
@@ -96,3 +93,11 @@ $( "#img3" ).on("mouseenter", function() {
   }, 2000, function() {
   });
 });
+
+var s = 18473902;
+window.onload=function(){
+setInterval(function(){
+  s+=27838;
+  document.getElementById("sum").children[0].innerHTML=s;
+},1000)
+}

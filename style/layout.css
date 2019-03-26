@@ -25,6 +25,9 @@ font-style: normal;
   animation-duration: 2s;
 	display: block;
 }
+body{
+	overflow: hidden;
+}
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7 {
 	font-size: 7.5vw;
@@ -88,7 +91,7 @@ to{
 	position: absolute;
 	width: 22vw;
 	transform: rotate(45deg);
-	margin-top: 27vw;
+	margin-top: 24vw;
 	margin-left: 22vw;
 }
 
@@ -96,7 +99,7 @@ to{
 	position: absolute;
 	width: 18vw;
 	transform: rotate(45deg);
-	margin-top: 37.5vw;
+	margin-top: 35vw;
 	margin-left: 53.5vw;
 }
 
