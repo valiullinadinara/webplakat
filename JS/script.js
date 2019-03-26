@@ -57,6 +57,14 @@ $('.welcome').on("mouseenter",function() {
 
 
 
+$('.ticket').on("mouseenter",function() {
+  $('.ticket').addClass('b16');
+});
+
+
+
+
+
 
 $( "#img1" ).on("mouseenter", function() {
   $( "#img1" ).animate({
